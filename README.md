@@ -21,12 +21,14 @@ Input statements were incorporated to filter the data based on the users' minimu
 
 ![WeatherPy Vacation Map](vacation_search/WeatherPy_vacation_map.png)
 <div align="center">Google Map with Map Markers of Hotel, City, and Current Weather information.</div>
-
+<br>
+<br>
 ### Vacation Itinerary
 Four cities were then selected from the map to create an itinerary of travel destinations. The Google Directions API was used to generate route directions from the first city through the fourth city, ending at the start city.
 
 ![WeatherPy Travel Map](vacation_itinerary/WeatherPy_travel_map.png)
 <div align="center">Round Trip Route of the four cities chosen.</div>
-
+<br>
+<br>
 ![WeatherPy Travel Map Markers](vacation_itinerary/WeatherPy_travel_map_markers.png)
 <div align="center">Chosen Travel Destination Cities with Map Markers.</div>
