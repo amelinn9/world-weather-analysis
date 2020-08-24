@@ -20,14 +20,13 @@ The NumPy random module was used to generate 2000 latitude and longitude pairs (
 Input statements were incorporated to filter the data based on the users' minimum and maximum travel temperature preferences. Any rows with missing data were then dropped, and a new DataFrame is generated with Hotel names within 5,000 metres of the city using the Google Directions API to retrieve JSON data from the search. Once again, rows with missing Hotel names were dropped and exported into a csv file, generating a more refined DataFrame. A Google Map with markers was plotted using the jupyter-gmaps module to show some cities within the search criteria.
 
 ![WeatherPy Vacation Map](vacation_search/WeatherPy_vacation_map.png)
-->Google Map with Markers of Hotel, City, and Current Weather information.<-
+<div align="center">Google Map with Map Markers of Hotel, City, and Current Weather information.</div>
 
 ### Vacation Itinerary
-  
+Four cities were then selected from the map to create an itinerary of travel destinations. The Google Directions API was used to generate route directions from the first city through the fourth city, ending at the start city.
 
-![Terminal election results](resources/election_results_terminal.PNG)
+![WeatherPy Travel Map](vacation_itinerary/WeatherPy_travel_map.png)
+<div align="center">Round Trip Route of the four cities chosen.</div>
 
-
-Output to text file
-
-![Text file election results](resources/election_results_txtfile.PNG)
+![WeatherPy Travel Map Markers](vacation_itinerary/WeatherPy_travel_map_markers.png)
+<div align="center">Chosen Travel Destination Cities with Map Markers.</div>
