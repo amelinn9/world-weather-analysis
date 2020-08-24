@@ -28,7 +28,7 @@ Input statements were incorporated to filter the data based on the users' minimu
 Four cities were then selected from the map to create an itinerary of travel destinations. The Google Directions API was used to generate route directions from the first city through the fourth city, ending at the start city.
 
 ![WeatherPy Travel Map](vacation_itinerary/WeatherPy_travel_map.png)
-<div align="center">Round Trip Route of the four cities chosen.</div>
+<div align="center">Round Trip Route of the cities chosen.</div>
 <br>
 <br>
 
